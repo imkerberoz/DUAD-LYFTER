@@ -1,0 +1,30 @@
+Ejercicio 2
+
+Cree un pseudocódigo que le pida un `tiempo en segundos` al usuario y calcule si es menor o mayor a 10 minutos. Si es menor, muestre cuantos segundos faltarían para llegar a 10 minutos. Si es mayor, muestre “*Mayor*”. Si es exactamente igual, muestre “*Igual*”.
+
+Respuesta: 
+
+Título: Cronometro para tiempo en segundos (10MINUTOS)
+
+1. **INICIO**
+2. **Entrada de datos**
+   a. Mostrar mensaje: *"Ingrese su tiempo en segundos"* (Definir MINUTOS_10 como 600 // 10 minutos en segundos (10 * 60))
+   b. Leer el valor de "TIEMPO"
+   c. Validar que TIEMPO sea un número positivo
+   d. Si TIEMPO <= 0:
+   e. Mostrar mensaje: "Error: El tiempo debe ser mayor que 0"
+Fin del programa
+FinSi
+3.  **Calcular si el tiempo es menor o mayor o igual a 10 minutos**
+a. Si TIEMPO < MINUTOS_10:
+     I. HACER: Calcular FALTANTE = MINUTOS_10 - TIEMPO
+     II. Mostrar mensaje: "Faltan ", FALTANTE, " segundos para llegar a 10 minutos"
+
+       b.  Si TIEMPO > MINUTOS_10:
+            I. HACER: Mostrar mensaje: "Mayor"
+
+       c. Si TIEMPO = MINUTOS_10:
+            I. HACER: Mostrar mensaje: "Igual"
+      FinSI
+
+1. FIN
