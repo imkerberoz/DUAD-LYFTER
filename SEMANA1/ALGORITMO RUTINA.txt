@@ -1,0 +1,115 @@
+B. Cree un algoritmo que describa su rutina diaria. Use condiciones, condiciones múltiples y ciclos.
+
+Respuesta: 
+
+1. **Inicio**
+2. Despertar a las 5:00 a.m.
+3. Apagar la alarma
+4. Levantarse de la cama a las 5:05 a.m.
+5. Dirigirse al bano
+6. Tomar el cepillo de dientes y la pasta de dientes
+7. Aplicar pasta de dientes al cepillo
+8. Cepillarse los dientes en no más de 5 minutos
+9. Abrir moderadamente el grifo
+10. Enjuagarse la boca
+11. Tomar el enjuague bucal
+12. Hacer gárgaras con el enjuague bucal
+13. Escupir el enjuague bucal en el lavandino
+14. Tomar jabón para el rostro
+15. Mojar el jabón y frotarlo en las palmas de las manos hasta que se forme una cantidad considerable de espuma
+16. Pasar esa espuma al rostro masajeando en forma circular por una duración de 2 a 3 minutos
+17. Enjuagarse el rostro con abundante agua
+18. Cerrar el grifo
+19. Secarse el rostro con una toalla
+20. Colgar la toalla adecuadamente
+21. Salir del baño
+22. Devolverse al cuarto
+23. Ir al closet
+24. Buscar ropa adecuada para trabajar
+25. Quitarse la pijama
+26. Ponerse la ropa para trabajar
+27. Dependiendo de los diferentes días de la semana:
+
+ 27.1: Si es **lunes a viernes**:
+        1- Ir al escritorio de trabajo a las 5:55am
+        2- Encender la computadora
+        3- Conectar el cargador de la computadora a la fuente de poder
+        4- Conectarse al trabajo a partir de las 6:00 a.m
+        5- Salir a break a las 8:00am:
+                   a- Si tengo hambre:
+                           i. Ir a la cocina, si hay cafe, coger cafe y una galleta
+                           ii. Sino, preparar un cafe, esperar y coger la galleta
+                   b- Si no tengo hambre:
+                           i. Descansar en la sala
+        6- Devolverme al escritorio y empezar a trabajar a las 8:20am
+        7- Salir a lunch a las 10:00am
+        8- Ir a la cocina:
+                   a- Abrir el refrigerador
+                   b- Seleccionar la fruta
+                   b- Preparar un batido de fruta
+                   c- Tomar el batido fruta
+                   d- Lavar los utensilios
+         9- Devolverse al escritorio a las 11:00am
+         10- Terminar la jornada de trabajo a las 12:00pm
+         11- Dirigirse al cuarto
+         12- Ir al closet
+         13- Buscar ropa para entrenar
+         14- Quitarse la ropa y ponerse la ropa de entreno
+         15- Ir a la cocina:
+                  a- Buscar el shaker
+                  b- Buscar la proteina
+                  c- Abrir la proteina y el shaker
+                  d- llenar el shaker con un scoop de proteina
+                  e- Llenar el shaker con agua
+                  f-  Tapar el shaker
+                  g- Batir bien el shaker con la proteina y el agua
+                  h- Ingerir la proteina batida
+            16- Buscar las llaves
+            17- Ir al gimnasio a las 12:50am
+            18- Cumplir con la rutina establecida de gimnasio:
+                      a- Si es Lunes: Pecho y Tríceps
+                      b- Si es Martes: Espalda y Bíceps
+                      c- Si es Miercoles: Piernas y Glúteos
+                      d- Si es Jueves: Hombros y Abdominales
+                      e- Si es Viernes: una sesión de cuerpo completo
+            19- Devolverse a la casa a las 3:00pm
+            20- Tomar una ducha
+            21- Vestirse
+            22- Cumplir con los deberes de programacion a partir de las 4:30pm
+            23- Cenar a las 7:00pm
+            24- Cepillarse los dientes a las 8:30pm
+            25- Ir a la cama a las 8:50pm
+            26- Dormirse a las 9:00pm
+
+
+     27.2 Si es **sábado**:
+            1- Levantarse a las 7:00am
+            2. Dirigirse al bano
+            3. Tomar el cepillo de dientes y la pasta de dientes
+            4. Aplicar pasta de dientes al cepillo
+            5. Cepillarse los dientes en no mas de 5 minutos
+            6. Abrir moderadamente el grifo
+            7. Enjuagarse la boca
+            8. Tomar el enjuague bucal
+            9. Hacer gargaras con el enjuague bucal
+            10. Escupir el enjuague bucal en el lavandino
+            11. Tomar jabon para el rostro
+            12. Mojar el jabon y frotarlo en las palmas de las manos hasta que se forme una cantidad considerable de espuma
+            13. Pasar esa espuma al rostro masajeando en forma circular por una duracion de 2 a 3 minutos
+            14. Enjuagarse el rostro con abundante agua
+            15. Cerrar el grifo
+            16. Secarse el rostro con una toalla
+            17. Colgar la toalla adecuadamente
+            18. Salir del bano
+            19. Devolverse al cuarto
+            20. Ir al closet
+            21. Buscar ropa comoda
+            22. Quitarse la pijama
+            23. Ponerse la ropa
+            24. Desayunar a las 8:00am
+            25. A partir de las 9:00am hacer compras y limpieza.
+
+     27.3 Si es **domingo**:
+            1. Repetir los pasos previos del dia sabado del 1 al 24
+            2. Descansar y pasar tiempo en familia.
+28.Fin
