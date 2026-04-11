@@ -1,0 +1,74 @@
+{
+    "categories": {
+        "Salary": {
+            "name": "Salary",
+            "color": "#1E90FF"
+        }
+    },
+    "transactions": [
+        {
+            "date": "27/03/2026",
+            "type": "Income",
+            "title": "Salary March",
+            "category": "Salary",
+            "amount": 500000.0,
+            "color": "#1E90FF"
+        },
+        {
+            "date": "27/03/2026",
+            "type": "Expense",
+            "title": "Lunch",
+            "category": "Food",
+            "amount": 12000.0,
+            "color": "#1E90FF"
+        },
+        {
+            "date": "20/03/2026",
+            "type": "Income",
+            "title": "March Salary",
+            "category": "Salary",
+            "amount": 500000.0,
+            "color": "#1E90FF"
+        },
+        {
+            "date": "25/03/2026",
+            "type": "Expense",
+            "title": "Lunch",
+            "category": "Food",
+            "amount": 15000.0,
+            "color": "#1E90FF"
+        },
+        {
+            "date": "27/03/2026",
+            "type": "Income",
+            "title": "Salary",
+            "category": "Salary",
+            "amount": 300000.0,
+            "color": "#1E90FF"
+        },
+        {
+            "date": "20/03/2026",
+            "type": "Income",
+            "title": "March Salary",
+            "category": "Salary",
+            "amount": 500000.0,
+            "color": "#1E90FF"
+        },
+        {
+            "date": "25/03/2026",
+            "type": "Expense",
+            "title": "Lunch",
+            "category": "Food",
+            "amount": 15000.0,
+            "color": "#1E90FF"
+        },
+        {
+            "date": "27/03/2026",
+            "type": "Income",
+            "title": "Salary",
+            "category": "Salary",
+            "amount": 300000.0,
+            "color": "#1E90FF"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+Date,Title,Amount,Category,Type
+27/03/2026,Taxi to Airport,-8500.0,Transport,Expense
+25/03/2026,Groceries,-24500.0,Food,Expense
+20/03/2026,Monthly Salary,+850000.0,Salary,Income
+
+TOTAL INCOME,,+850000.00,,
+TOTAL EXPENSE,,-33000.00,,
+NET BALANCE,,817000.00,,
