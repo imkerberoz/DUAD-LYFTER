@@ -1,0 +1,90 @@
+{
+    "categories": {
+        "Food": {
+            "name": "Food",
+            "color": "#FF5733"
+        },
+        "Salary": {
+            "name": "Salary",
+            "color": "#4CAF50"
+        },
+        "Transport": {
+            "name": "Transport",
+            "color": "#2196F3"
+        }
+    },
+    "transactions": [
+        {
+            "date": "20/03/2026",
+            "type": "Income",
+            "title": "Monthly Salary",
+            "category": "Salary",
+            "amount": 850000.0,
+            "color": "#4CAF50"
+        },
+        {
+            "date": "25/03/2026",
+            "type": "Expense",
+            "title": "Groceries",
+            "category": "Food",
+            "amount": 24500.0,
+            "color": "#FF5733"
+        },
+        {
+            "date": "27/03/2026",
+            "type": "Expense",
+            "title": "Taxi to Airport",
+            "category": "Transport",
+            "amount": 8500.0,
+            "color": "#2196F3"
+        },
+        {
+            "date": "20/03/2026",
+            "type": "Income",
+            "title": "Monthly Salary",
+            "category": "Salary",
+            "amount": 850000.0,
+            "color": "#4CAF50"
+        },
+        {
+            "date": "25/03/2026",
+            "type": "Expense",
+            "title": "Groceries Shopping",
+            "category": "Food",
+            "amount": 24500.0,
+            "color": "#FF5733"
+        },
+        {
+            "date": "27/03/2026",
+            "type": "Expense",
+            "title": "Bus Ticket",
+            "category": "Transport",
+            "amount": 3500.0,
+            "color": "#2196F3"
+        },
+        {
+            "date": "20/03/2026",
+            "type": "Income",
+            "title": "Monthly Salary",
+            "category": "Salary",
+            "amount": 850000.0,
+            "color": "#4CAF50"
+        },
+        {
+            "date": "25/03/2026",
+            "type": "Expense",
+            "title": "Groceries Shopping",
+            "category": "Food",
+            "amount": 24500.0,
+            "color": "#FF5733"
+        },
+        {
+            "date": "04/04/2026",
+            "type": "Expense",
+            "title": "Bus Ticket",
+            "category": "Transport",
+            "amount": 3500.0,
+            "color": "#2196F3"
+        }
+    ]
+}
