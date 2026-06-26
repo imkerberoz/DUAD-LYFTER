@@ -1,0 +1,38 @@
+{
+    "categories": {
+        "Personal care": {
+            "name": "Personal care",
+            "color": "#1E90FF"
+        },
+        "Food": {
+            "name": "Food",
+            "color": "#1E90FF"
+        },
+        "Salario": {
+            "name": "Salario",
+            "color": "#1E90FF"
+        },
+        "Hipoteca": {
+            "name": "Hipoteca",
+            "color": "#1E90FF"
+        }
+    },
+    "transactions": [
+        {
+            "date": "04/04/2026",
+            "type": "Income",
+            "title": "Salario Abril",
+            "category": "Salario",
+            "amount": 4000.0,
+            "color": "#1E90FF"
+        },
+        {
+            "date": "04/04/2026",
+            "type": "Income",
+            "title": "Salario Abril",
+            "category": "Salario",
+            "amount": 4000.0,
+            "color": "#1E90FF"
+        }
+    ]
+}
