@@ -1,2 +1,0 @@
-# DUAD-LYFTER
-Homework

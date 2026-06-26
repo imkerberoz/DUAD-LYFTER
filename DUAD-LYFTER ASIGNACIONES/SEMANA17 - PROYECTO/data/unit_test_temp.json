@@ -1,0 +1,18 @@
+{
+    "categories": {
+        "Salary": {
+            "name": "Salary",
+            "color": "#1E90FF"
+        }
+    },
+    "transactions": [
+        {
+            "date": "21/03/2026",
+            "type": "Income",
+            "title": "Salary Payment",
+            "category": "Salary",
+            "amount": 300000.0,
+            "color": "#1E90FF"
+        }
+    ]
+}
