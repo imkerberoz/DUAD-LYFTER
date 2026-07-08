@@ -1,0 +1,52 @@
+CONJUNTOS BRINDADOS: 
+All = {1,2,3,4,5,6,7,8,9,10}
+Even = {2,4,6,8,10}
+Odd = {1,3,5,7,9}
+
+OPERACIONES POR REALIZAR: 
+Even U Odd
+Even ∩ Odd
+All - Odd
+C(Even)
+C(Odd-All)
+
+RESULTADOS: 
+1. Even U Odd (Unión)  
+   Resultado: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} (equivalente a All)
+
+2. Even ∩ Odd (Intersección)  
+   Resultado: {} (conjunto vacío)
+
+3. All - Odd (Diferencia)  
+   Resultado: {2, 4, 6, 8, 10} (equivalente a Even)
+
+4. C(Even) (Complemento de Even, relativo a All)  
+   Resultado: {1, 3, 5, 7, 9} (equivalente a Odd)
+
+5. C(Odd - All) (Complemento de (Odd - All))  
+   Odd - All = {} (conjunto vacío, ya que Odd es subconjunto de All)  
+   C({}) = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} (equivalente a All) 
+
+> Con respecto a C(Odd - All) =
+En palabras cortas, haciendo una analogia con cajas llenas, cajas vacias:
+Nos preguntamos: Odd - All = {}
+¿Qué numeros están en Odd pero NO están en All?
+→ Todos los números de Odd (1,3,5,7,9) sí están dentro de All. Por ende, No hay ningún elemento que esté en Odd y que no esté en All.
+Entonces... La caja queda vacía (resta) → {}
+
+Nos preguntamos: C({}) = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} 
+¿Qué numeros de All no están en la caja vacía?
+¡Todos! Porque la caja vacía no tiene nada.
+Por eso el complemento de la caja vacía es toda la caja grande otra vez, devolviendo el resultado de ALL
+
+=====================
+
+TABLA EXPLICATIVA DE TEORIA DE CONJUNTOS/ EJEMPLOS: 
+Un conjunto puede ser Colores: {rojo, verde, azul, amarillo, naranja}
+Otro conjunto puede ser Frutas: {manzana, piña, fresa, naranja, uva}
+
+Operación	Descripción	                                                    Simbolo	    Ejemplo	                                   Resultado
+Unión	        Combina los elementos de ambos conjuntos.	                      U	          Colores U Frutas	                          {rojo, verde, azul, amarillo, naranja, manzana, piña, fresa, uva}
+Intersección	Agrupa solo los elementos que están en ambos conjuntos.	              ∩	          Colores ∩ Frutas	                          {naranja}
+Diferencia	Resta los elementos de un conjunto del otro.	                      -	          Colores - Frutas	                          {rojo, verde, azul, amarillo}
+Complemento	Extrae todos los elementos de un conjunto que no están en otro.	      C()	  Primarios: {rojo, amarillo,azul} C(Primarios)	  {verde, naranja
