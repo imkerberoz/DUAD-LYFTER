@@ -1,0 +1,26 @@
+Ejercicio 3
+
+Cree un algoritmo que le pida un numero al usuario, y realice una suma de cada numero del 1 hasta ese número ingresado. Luego muestre el resultado de la suma.
+
+Respuesta: 
+
+Titulo: Suma de Números
+
+1. INICIO
+2. **Entrada de datos**
+     a. Mostrar mensaje: "Ingrese su NUMERO_ENTERO_POSITIVO"
+     b. Leer el valor NUMERO_ENTERO_POSITIVO "
+3. **Inicializar suma**
+suma ← 0
+4. **Validar que el número sea positivo**
+     a. SI numero > 0 ENTONCES
+**Bucle para sumar desde 1 hasta numero**
+     b. PARA i ← 1 HASTA numero HACER
+     c. suma ← suma + i
+FIN PARA
+5. **Mostrar resultado**
+ESCRIBIR "La suma de los números desde 1 hasta ", numero, " es: ", suma
+SINO
+ESCRIBIR "Por favor, ingrese un número positivo"
+FIN SI
+6. FIN

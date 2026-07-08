@@ -1,0 +1,39 @@
+A. Cree un algoritmo para ver un video en Youtube. Sea lo más especifico posible.
+
+ Respuesta: 
+
+1. Inicio
+2. Si está en la casa y tiene una smart tv :
+a- utilizar la smart tv
+3. De lo contrario. si tiene un celular
+a- Utilizar el celular
+4. Si no tiene un celular, pero tiene una tablet:
+a- Utilizar la tablet
+5. Si no tiene ninguno de los dispositivos anteriores:
+a- Buscar a alguien que le preste algún dispositivo de los mencionados anteriormente.
+6. Iniciar el dispositivo (smart tv, celular, tablet).
+7. Verificar que el dispositivo está conectado a una red wifi
+a- Si no, conectar el dispositivo a la red wifi
+8. Buscar la aplicación de YouTube.
+        a- Si no esta instalada la aplicación de YouTube en el celular o en la tablet:
+        b- En Android: Abrir Play Store
+        c- En IOS: Abrir la App Store
+        d- Ubicar la barra de búsqueda
+        e- Ingresar el término "YouTube" en la barra de búsqueda
+        f- Oprimir enter en el teclado u oprimir el icono de búsqueda para buscar la aplicación
+        g- Ubicar la aplicación "YouTube" en los resultados de búsqueda
+        h- Oprimir el botón "Instalar"
+        i- Esperar a que se termine de Instalar la aplicación en el dispositivo
+9. Entrar en la aplicación de YouTube
+10. Localizar la barra de búsqueda.
+11. Escribir el nombre del video o canal que desea ver.
+12. Presionar Enter o hacer clic en el icono de búsqueda.
+13. Revisar los resultados de la búsqueda.
+14. Seleccionar el video deseado.
+15. Hacer clic sobre el video.
+16. Esperar a que cargue el reproductor.
+17. Presionar el botón de Play si no inicia automáticamente.
+18. Ajustar volumen, calidad o pantalla completa si es necesario.
+19. Disfrutar el video.
+20. Fin
+

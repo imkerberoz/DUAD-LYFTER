@@ -1,0 +1,86 @@
+****Ejercicios Extra****
+
+
+A- Cree un algoritmo como preparar una fiesta sorpresa para un amigo o familiar. 
+Considere si la persona está en casa o no, si los invitados ya llegaron o no, qué hacer mientras esperan, y cómo finaliza la fiesta
+RESPUESTA = 
+1. Planificación (1-2 semanas antes)
+
+Elegir fecha/hora y lugar.
+Invitar invitados en secreto.
+Preparar decoraciones, comida, bebidas, música y regalos.
+Plan para alejar a la persona si está en casa (usar cómplice).
+
+2. Preparación en el Lugar (Día de la fiesta, 1-2 horas antes)
+
+Si la persona está en casa: Sacarla con una excusa, luego decorar rápido.
+Si no está en casa: Decorar con calma (globos, carteles "¡Sorpresa!", mesas listas).
+Preparar escondites para invitados.
+
+3. Llegada de Invitados
+
+Recibirlos y verificar lista.
+Mientras esperan invitados: Charlar en voz baja, preparar detalles, contactar retrasados.
+Cuando todos llegan: Apagar luces, esconderse y silencio total.
+
+4. Mientras Esperan a la Persona
+
+Silencio absoluto.
+Actividades: Juegos mudos, revisar cámaras o teléfonos en silencio.
+Al llegar: ¡Encender luces, gritar "¡Sorpresa!" y grabar reacción.
+
+5. Durante la Fiesta (2-4 horas)
+
+Comer, beber, abrir regalos, juegos, baile y anécdotas.
+
+6. Finalización
+
+Despedir invitados y agradecer.
+Limpiar todo (especialmente si es en casa de la persona).
+Enviar fotos/videos al día siguiente.
+
+*************************************************************************************************************************************************
+
+B- Cree un algoritmo que represente cómo prepararse para un examen importante. 
+Debe incluir una lista de actividades (leer, repasar, practicar), condiciones como si ya entendió la materia, o si tiene dudas, y un ciclo que se repita hasta sentirse listo
+RESPUESTA = 
+
+1. Planificación:
+Reunir materiales y crear horario por temas.
+
+2. Ciclo Principal (mientras listo sea falso):
+Leer tema actual.
+Si hay dudas: Resolverlas (buscar, preguntar).
+Repasar notas/resúmenes.
+Practicar ejercicios/simulacros.
+Autoevaluación:
+Si entendido (>80% aciertos): Avanzar al siguiente tema.
+Sino: Repetir ciclo para este tema.
+
+Hacer simulacro completo.
+Si confiado y todo entendido:listo = verdadero.
+
+3. Final:
+Repaso ligero.
+Descansar bien.
+Ir al examen preparado.
+
+*************************************************************************************************************************************************
+
+C- Cree un algoritmo de como se prepara para ir a su viaje de diversión favorito
+RESPUESTA = 
+
+1. Planificación:
+Elegir destino, fechas y actividades.
+Reservar transporte y alojamiento.
+Revisar clima/requisitos.
+
+2. Preparación (según días restantes):
+7 días: Hacer lista, comprar faltantes, confirmar reservas.
+≤7 días: Lavar ropa, empacar (essentials + diversión).
+≤2 días: Revisar maleta, cargar dispositivos, preparar casa.
+Checklist final: Documentos, tickets, dinero.
+
+3. Día del Viaje:
+Despertar temprano, salir con margen.
+¡Disfrutar al máximo!
