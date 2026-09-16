@@ -53,7 +53,8 @@ def create_task():
     tasks = load_tasks()  # Load existing tasks
 
     # Check for duplicate id
-    if any(t["id"] == data["id"] for t in tasks):  # Look for an existing task with the same id
+    if any(str(t["id"]) == str(data["id"]) for t in tasks): # Check for duplicate id (convert both to string to avoid type mismatch)
+    # if any(t["id"] == data["id"] for t in tasks):  ....(Additional correction, apart from the ones requested) THIS LINE IS OKAY, BUT NOT QUITE OPTIMIZED because it will cause a bug if the id is an integer and the data["id"] is a string (or vice versa). The comparison will always fail, and duplicates will not be detected.
         return jsonify({"error": "Ya existe una tarea con ese identificador"}), 400
 
     # Create the new task object
@@ -61,14 +62,14 @@ def create_task():
         "id": data["id"],  # Unique identifier
         "titulo": data["titulo"],  # Task title
         "descripcion": data["descripcion"],  # Task description
-        "estado": data["estado"]  # Task status
+        "estado": data["estado"]  # Task status 
     }
 
     tasks.append(new_task)  # Add the new task to the list
     save_tasks(tasks)  # Save the updated list to the file
     return jsonify(new_task), 201  # Return the created task with status 201
 
-@app.route("/tasks/<task_id>", methods=["PUT"])  # Endpoint to update an existing task
+@app.route("/tasks/<task_id>", methods=["PATCH"])  # CORRECTION... Endpoint to **PARTIALLY** update an existing task (To perform a full update we use PUT method instead.)
 def update_task(task_id):
     data = request.get_json()  # Get the JSON body
     if not data:  # Check if body is missing
@@ -77,7 +78,8 @@ def update_task(task_id):
     tasks = load_tasks()  # Load current tasks
 
     # Find the task by id
-    task = next((t for t in tasks if t["id"] == task_id), None)  # Search for the task
+    task = next((t for t in tasks if str(t["id"]) == str(task_id)), None)  # Search for the task (Prevent type mismatch by converting both to string)
+    # task = next((t for t in tasks if t["id"] == task_id), None) ...using this line will cause a bug if the id is an integer and the task_id is a string (or vice versa). The comparison will always fail, and the task will not be found.
     if not task:  # If not found
         return jsonify({"error": "Tarea no encontrada"}), 404
 
@@ -106,7 +108,8 @@ def delete_task(task_id):
     original_length = len(tasks)  # Remember how many tasks we had
 
     # Keep only the tasks whose id is different from the one we want to delete
-    tasks = [t for t in tasks if t["id"] != task_id]
+    tasks = [t for t in tasks if str(t["id"]) != str(task_id)]
+    #tasks = [t for t in tasks if t["id"] != task_id] ...wrong way  as this will cause a bug if the id is an integer and the task_id is a string (or vice versa). The comparison will always fail, and the task will not be deleted.
 
     if len(tasks) == original_length:  # If the list length did not change, the task was not found
         return jsonify({"error": "Tarea no encontrada"}), 404
@@ -115,4 +118,4 @@ def delete_task(task_id):
     return jsonify({"message": "Tarea eliminada"}), 200  # Confirm deletion
 
 if __name__ == "__main__":  # This block runs only when you execute the file directly
-    app.run(debug=True)  # Start the development server with debug mode enabled
+    app.run(debug=True)  # Start the development server with debug mode enabled 
