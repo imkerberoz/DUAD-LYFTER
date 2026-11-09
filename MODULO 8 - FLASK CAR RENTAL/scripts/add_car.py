@@ -28,6 +28,7 @@ def add_car(brand, model, year, status="available"):
         """, (brand, model, year, status))
 
         new_id = cur.fetchone()[0] # Gets the ID of the newly inserted car.
+        conn.commit()
         print(f"✅ Automóvil creado correctamente con ID: {new_id}")
 
     except Exception as e: # handles any exceptions that occur during the database operations. If an error occurs, it rolls back the transaction to maintain data integrity and prints an error message.
